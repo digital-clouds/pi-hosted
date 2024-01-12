@@ -1325,7 +1325,7 @@
 				"Dashboard"
 			],
 			"description": "Homepage helps you organize your self-hosted services by making them accessible from a single place",
-			"image": "ghcr.io/benphelps/homepage:latest",
+			"image": "ghcr.io/gethomepage/homepage:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homepage.png",
 			"name": "Homepage",
 			"platform": "linux",
@@ -2285,7 +2285,7 @@
 					"name": "TZ"
 				}
 			],
-			"image": "jc21/nginx-proxy-manager:v3-develop",
+			"image": "jc21/nginx-proxy-manager:v3",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/proxy_mgr.png",
 			"name": "nginx-proxy-manager-v3",
 			"platform": "linux",
