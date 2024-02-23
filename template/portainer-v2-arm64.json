@@ -266,8 +266,8 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/apline/downloads",
-					"container": "/home/apline/downloads"
+					"bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/alpine/downloads",
+					"container": "/home/alpine/downloads"
 				}
 			]
 		},
@@ -2201,7 +2201,7 @@
 					"name": "PGID"
 				}
 			],
-			"image": "lscr.io/linuxserver/firefox:latest",
+			"image": "linuxserver/firefox:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/firefox.png",
 			"name": "Firefox",
 			"platform": "linux",
@@ -4712,7 +4712,7 @@
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hay-kot.github.io/mealie/\" target=\"_blank\">https://hay-kot.github.io/mealie/</a><br><b>Official Docker Documentation: </b><a href=\"https://hay-kot.github.io/mealie/documentation/getting-started/install/\" target=\"_blank\">https://hay-kot.github.io/mealie/documentation/getting-started/install/</a><br><br><br>Default Credentials: Username: changeme@email.com Password: MyPassword. Documentation is Available <a href='https://hay-kot.github.io/mealie/documentation/getting-started/install/'>here</a>.",
 			"platform": "linux",
 			"ports": [
-				"9925:80/tcp"
+				"9925:9000/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mealie",
@@ -7533,76 +7533,6 @@
 			"title": "Raspberry Pi Docker Monitor",
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">rpi_docker_monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/rpi_docker_monitor.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/rpi_docker_monitor.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=IoD3vFuep64&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=8 target=\"_blank\">Novaspirit Tech - Raspberry Pi Docker Monitoring</a><br><br>"
-		},
-		{
-			"categories": [
-				"Game"
-			],
-			"description": "This container lets you run a Valheim server on a Raspberry Pi.",
-			"env": [
-				{
-					"default": "1000",
-					"label": "PUID",
-					"name": "PUID"
-				},
-				{
-					"default": "1000",
-					"label": "PGID",
-					"name": "PGID"
-				},
-				{
-					"default": "Raspiheim",
-					"label": "SERVER_NAME",
-					"name": "SERVER_NAME"
-				},
-				{
-					"default": "Raspiworld",
-					"label": "WORLD_NAME",
-					"name": "WORLD_NAME"
-				},
-				{
-					"default": "Raspipass",
-					"label": "SERVER_PASS",
-					"name": "SERVER_PASS"
-				},
-				{
-					"default": "0",
-					"label": "PUBLIC",
-					"name": "PUBLIC"
-				},
-				{
-					"default": "false",
-					"label": "UPDATE",
-					"name": "UPDATE"
-				},
-				{
-					"default": "false",
-					"label": "PAUSE",
-					"name": "PAUSE"
-				}
-			],
-			"image": "arokan/raspiheim:latest",
-			"logo": "https://static.wikia.nocookie.net/valheim/images/b/bf/Valheim-logo.png/revision/latest?cb=20210317083440&path-prefix=de",
-			"name": "Raspiheim",
-			"platform": "linux",
-			"ports": [
-				"2456:2456/udp",
-				"2457:2457/udp"
-			],
-			"restart_policy": "unless-stopped",
-			"title": "Raspiheim",
-			"type": 1,
-			"volumes": [
-				{
-					"bind": "/portainer/Files/AppData/Config/Raspiheim/data",
-					"container": "/data"
-				},
-				{
-					"bind": "/portainer/Files/AppData/Config/Raspiheim/server",
-					"container": "/valheim"
-				}
-			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/arokan/raspiheim\" target=\"_blank\">https://hub.docker.com/r/arokan/raspiheim</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/arokan/raspiheim\" target=\"_blank\">https://hub.docker.com/r/arokan/raspiheim</a><br><br><br>"
 		},
 		{
 			"categories": [

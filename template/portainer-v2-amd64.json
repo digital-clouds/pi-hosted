@@ -266,8 +266,8 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/apline/downloads",
-					"container": "/home/apline/downloads"
+					"bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/alpine/downloads",
+					"container": "/home/alpine/downloads"
 				}
 			]
 		},
@@ -2277,7 +2277,7 @@
 					"name": "PGID"
 				}
 			],
-			"image": "lscr.io/linuxserver/firefox:latest",
+			"image": "linuxserver/firefox:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/firefox.png",
 			"name": "Firefox",
 			"platform": "linux",
@@ -4811,7 +4811,7 @@
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hay-kot.github.io/mealie/\" target=\"_blank\">https://hay-kot.github.io/mealie/</a><br><b>Official Docker Documentation: </b><a href=\"https://hay-kot.github.io/mealie/documentation/getting-started/install/\" target=\"_blank\">https://hay-kot.github.io/mealie/documentation/getting-started/install/</a><br><br><br>Default Credentials: Username: changeme@email.com Password: MyPassword. Documentation is Available <a href='https://hay-kot.github.io/mealie/documentation/getting-started/install/'>here</a>.",
 			"platform": "linux",
 			"ports": [
-				"9925:80/tcp"
+				"9925:9000/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mealie",

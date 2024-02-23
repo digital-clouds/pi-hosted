@@ -4,7 +4,7 @@ List of all apps included in this project with info related to it.
 
 |**Arm32:**          |**Arm64:**|**Amd64:**|**Total:**|
 |:-------------------|:--------:|:--------:|:--------:|
-| 106 apps | 231 apps | 233 apps | 236 apps |
+| 106 apps | 230 apps | 233 apps | 236 apps |
 
 ---
 
@@ -188,7 +188,6 @@ List of all apps included in this project with info related to it.
 |[Quassel IRC](https://quassel-irc.org/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-quassel-core) |  |  |  |
 |[Radarr](https://radarr.video/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-radarr) |  |  |  |
 |[Raspberry Pi Docker Monitor](https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md) | [![](../build/images/red_doc_icon.png)](../docs/rpi_docker_monitor.md) | [![](../build/images/script_icon.png)](../tools/rpi_docker_monitor.sh) | [![Raspberry Pi Docker Monitoring](../build/images/yt-badge-novaspirit.png "Raspberry Pi Docker Monitoring")](https://www.youtube.com/watch?v=IoD3vFuep64&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=8) |
-|[Raspiheim](https://hub.docker.com/r/arokan/raspiheim)|:x:|:heavy_check_mark:|:x:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/arokan/raspiheim) |  |  |  |
 |[RDesktop](http://xrdp.org/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-rdesktop) |  |  |  |
 |[Reactive-Resume](https://rxresu.me/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/martadinata666/reactive-resume) | [![](../build/images/red_doc_icon.png)](../docs/reactive-resume_installation.md) | [![](../build/images/script_icon.png)](../tools/install_reactive-resume.sh) |  |
 |[readarr](https://readarr.com/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://wiki.servarr.com/en/readarr) |  |  |  |
@@ -208,7 +207,8 @@ List of all apps included in this project with info related to it.
 |[SmokePing](https://oss.oetiker.ch/smokeping/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-smokeping) |  |  |  |
 |[Snippet-box](https://github.com/pawelmalak/snippet-box)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/pawelmalak/snippet-box#with-docker) |  |  | [![My Most used container! Snippet Box](../build/images/yt-badge-novaspirit.png "My Most used container! Snippet Box")](https://www.youtube.com/watch?v=v-jUyB3fvAo) |
 |[Sonarr](https://sonarr.tv/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-sonarr) |  |  |  |
-|[Speedtest Tracker](https://github.com/henrywhitaker3/Speedtest-Tracker)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/henrywhitaker3/Speedtest-Tracker#using-docker) |  |  |  |
+|[Speedtest Tracker](https://github.com/henrywhitaker3/Speedtest-Tracker)|:heavy_check_mark:|:x:|:x:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/henrywhitaker3/Speedtest-Tracker#using-docker) |  |  |  |
+|[Speedtest Tracker](https://github.com/henrywhitaker3/Speedtest-Tracker)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/henrywhitaker3/Speedtest-Tracker#using-docker) |  |  |  |
 |[Sshwifty](https://sshwifty.herokuapp.com/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/nirui/sshwifty#docker-image) |  |  |  |
 |[SurrealDB](https://surrealdb.com/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/surrealdb/surrealdb) |  |  |  |
 |[SyncThing](https://syncthing.net/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-syncthing) |  |  |  |
